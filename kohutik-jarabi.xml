@@ -1,0 +1,42 @@
+<!--
+  Kohútik Jarabí – the melody of a popular Slovak folk song
+
+  This example shows how Alexa's "French (FR)" voice synthesizer
+  renders strings of vowels at varying pitches, creating a "singing" voice.
+
+  Make sure you select "French (FR)" as your Alexa language
+  when testing this example.
+ -->
+<speak>
+<prosody rate="125%" pitch="+0%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+13%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+25%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<break time="0s"/>
+<prosody rate="125%" pitch="+33%">aaaaaaaaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+33%">aaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+33%">aaaaaaaaaaaaaa</prosody>
+<break time="0s"/>
+<prosody rate="125%" pitch="+33%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+25%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+13%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<break time="0s"/>
+<prosody rate="125%" pitch="+25%">aaaaaaaaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+25%">aaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+25%">aaaaaaaaaaaaaa</prosody>
+<break time="0s"/>
+<prosody rate="125%" pitch="+25%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+13%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+0%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<break time="0s"/>
+<prosody rate="125%" pitch="+13%">aaaaaaaaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+13%">aaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+13%">aaaaaaaaaaaaaa</prosody>
+<break time="0s"/>
+<prosody rate="125%" pitch="+13%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+25%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+13%">aaaaaaaaaaaaaaaaaaaaaa</prosody>
+<break time="0s"/>
+<prosody rate="125%" pitch="+0%">aaaaaaaaaaaaaaaaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+0%">aaaaaaaaaaaaaa</prosody>
+<prosody rate="125%" pitch="+0%">aaaaaaaaaaaaaa</prosody>
+</speak>
