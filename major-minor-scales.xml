@@ -1,0 +1,101 @@
+ <!--
+  This example shows how Alexa's "French (FR)" voice synthesizer
+  renders strings of vowels at varying pitches, creating a "singing" voice.
+
+  Make sure you select "French (FR)" as your Alexa language
+  when testing this example.
+
+  The (approximate) pitch shift percentages for
+  the equal tempered (dodecaphonic) scale are as follows:
+
+  1     -33.3%
+  2mi   -31%
+  2maj  -25%
+  3mi   -21%
+  3maj  -17%
+  4     -11%
+  5     +0%
+  6mi   +5%
+  6maj  +12%
+  7mi   +17%
+  7maj  +25%
+  8     +31%
+
+  Some notes:
+  –– <break/> elements help maintain the same pronunciation for every not
+    they probably reset some internal state in Alexa's LSTM
+  –– certain consonants can be added at the beginning, e.g. 'paaaaaa'
+
+ -->
+
+<speak>
+  Voilà une échelle majeure:
+  <break time="1s"/>
+
+  <prosody pitch="-33.3%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-25%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-17%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-11%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+0%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+12%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+25%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+31%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+31%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+25%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+12%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+0%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-11%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-17%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-25%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-33.3%">aaaaaaaaaaaaaaaaaaaa</prosody>
+
+  et voilà une échelle mineure:
+  <break time="1s"/>
+
+  <prosody pitch="-33.3%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-25%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-21%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-11%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+0%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+5%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+17%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+31%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+31%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+17%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+5%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="+0%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-11%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-21%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-25%">aaaaaaaaaaaaaaaaaaaa</prosody>
+  <break time="0s"/>
+  <prosody pitch="-33.3%">aaaaaaaaaaaaaaaaaaaa</prosody>
+</speak>
